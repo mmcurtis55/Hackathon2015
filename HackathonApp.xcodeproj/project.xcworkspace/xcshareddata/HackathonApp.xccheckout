@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>70D9959C-2DE6-418E-8B12-42663973CA53</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HackathonApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>bc1a0ddd-8d80-4e87-b932-dfdd329fea05++5716</key>
+		<string>http://svn.freescale.net/svn/it-mobile/Hackathon2015/iOS</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HackathonApp/HackathonApp.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>bc1a0ddd-8d80-4e87-b932-dfdd329fea05++5716</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>bc1a0ddd-8d80-4e87-b932-dfdd329fea05++5716</key>
+		<string>http://svn.freescale.net/svn/it-mobile</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://svn.freescale.net/svn/it-mobile/Hackathon2015/iOS/HackathonApp/HackathonApp.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>bc1a0ddd-8d80-4e87-b932-dfdd329fea05++5716</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>bc1a0ddd-8d80-4e87-b932-dfdd329fea05++5716</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Hackathon</string>
+		</dict>
+	</array>
+</dict>
+</plist>
