@@ -1,0 +1,343 @@
+{"locations":[{
+              "locationCode":"TX30",
+              "label":"OHT",
+              "dataURL":"OHT.pdf",
+              "buildings":[
+                           {"label":"Bldg. D First Floor","type":"pdf","dataURL":"D1.pdf","anchor coords":[[0,0]],
+                           "items":[
+                                    {"label":"San Saba","type":"ConferenceRoom","hint":"Right behind north lobby security desk", "coords":[0,0]},
+                                    {"label":"San Jacinto","type":"ConferenceRoom","hint":""},
+                                    {"label":"Senca","type":"ConferenceRoom","hint":""},
+                                    {"label":"San Gabriel","type":"ConferenceRoom","hint":""},
+                                    {"label":"Waterloo","type":"ConferenceRoom","hint":""},
+                                    {"label":"Trinity I","type":"ConferenceRoom","hint":"The corridor between D and W building"},
+                                    {"label":"Trinity II","type":"ConferenceRoom","hint":"The corridor between D and W building"},
+                                    {"label":"Trinity III","type":"ConferenceRoom","hint":"The corridor between D and W building"}
+                                    ]
+                           },
+                           {"label":"Bldg. D Second Floor","type":"pdf","dataURL":"D2.pdf","anchor coords":[[0,0]],
+                           "items":[
+                                    {"label":"Pedernales","type":"ConferenceRoom","hint":"", "coords":[0,0]},
+                                    {"label":"Pecos","type":"ConferenceRoom","hint":" ", "coords":[0,0]},
+                                    {"label":"Sabine","type":"ConferenceRoom","hint":"East", "coords":[0,0]},
+                                    {"label":"Lavaca","type":"ConferenceRoom","hint":"South", "coords":[0,0]},
+                                    {"label":"Guadalupe","type":"ConferenceRoom","hint":"South", "coords":[0,0]},
+                                    {"label":"Nueces","type":"ConferenceRoom","hint":"SW Corner", "coords":[0,0]},
+                                    {"label":"Frio","type":"ConferenceRoom","hint":" ", "coords":[0,0]},
+                                    {"label":"Red River","type":"ConferenceRoom","hint":"Near main Stairwell", "coords":[0,0]}
+                                    ]
+                           }
+                           ,
+                           {"label":"Bldg. W First Floor","type":"pdf","dataURL":"W1.pdf","anchor coords":[[0,0]],
+                           "items":[
+                                    {"label":"Annapurna","type":"ConferenceRoom","hint":"First conf room on the left in Information Technology", "coords":[0,0]},
+                                    {"label":"K2","type":"ConferenceRoom","hint":"Second conf room on the left in Information Technology", "coords":[0,0]},
+                                    {"label":"Keystone","type":"ConferenceRoom","hint":"Third conf room on the left in Information Technology", "coords":[0,0]},
+                                    {"label":"Dripping Springs","type":"ConferenceRoom","hint":"Not in Information Technology Area", "coords":[0,0]}
+                                    ]
+                           },
+                           {"label":"Bldg. F Third Floor","type":"pdf","dataURL":"F3.pdf","anchor coords":[[0,0]],
+                           "items":[
+                                    {"label":"Cedar","type":"ConferenceRoom","hint":"", "coords":[0,0]},
+                                    {"label":"Cottonwood","type":"ConferenceRoom","hint":" ", "coords":[0,0]},
+                                    {"label":"Magnolia","type":"ConferenceRoom","hint":"", "coords":[0,0]},
+                                    {"label":"Bonsai","type":"ConferenceRoom","hint":"", "coords":[0,0]},
+                                    {"label":"Marula","type":"ConferenceRoom","hint":"", "coords":[0,0]},
+                                    {"label":"Three Rivers","type":"ConferenceRoom","hint":"", "coords":[0,0]},
+                                    {"label":"Bear Creek","type":"ConferenceRoom","hint":" ", "coords":[0,0]},
+                                    {"label":"Juniper","type":"ConferenceRoom","hint":" ", "coords":[0,0]},
+                                    {"label":"Hickory","type":"ConferenceRoom","hint":" ", "coords":[0,0]},
+                                    {"label":"Red Bud","type":"ConferenceRoom","hint":" ", "coords":[0,0]},
+                                    {"label":"Collaboration","type":"ConferenceRoom","hint":" ", "coords":[0,0]},
+                                    ]
+                           },
+                           {"label":"Bldg. G Second Floor","type":"pdf","dataURL":"G2.pdf","anchor coords":[[0,0]],
+                           "items":[
+                                    {"label":"Tejas","type":"ConferenceRoom","hint":"", "coords":[0,0]},
+                                    {"label":"Treaty Oak","type":"ConferenceRoom","hint":" ", "coords":[0,0]},
+                                    {"label":"Sunset","type":"ConferenceRoom","hint":"", "coords":[0,0]},
+                                    {"label":"WWW","type":"ConferenceRoom","hint":"", "coords":[0,0]},
+                                    {"label":"All Y’all","type":"ConferenceRoom","hint":"", "coords":[0,0]},
+                                    {"label":"Waxahachie","type":"ConferenceRoom","hint":"", "coords":[0,0]},
+                                    {"label":"Nacogdoches","type":"ConferenceRoom","hint":" ", "coords":[0,0]},
+                                    {"label":"High Yield","type":"ConferenceRoom","hint":" ", "coords":[0,0]},
+                                    {"label":"Corsicana","type":"ConferenceRoom","hint":" ", "coords":[0,0]},
+                                    {"label":"Backyard","type":"ConferenceRoom","hint":" ", "coords":[0,0]},
+                                    ]
+                           },
+                           {"label":"Bldg. G Third Floor","type":"pdf","dataURL":"G3.pdf","anchor coords":[[0,0]],
+                           "items":[
+                                    {"label":"St. Andrews","type":"ConferenceRoom","hint":"", "coords":[0,0]},
+                                    {"label":"Zilker","type":"ConferenceRoom","hint":" ", "coords":[0,0]},
+                                    {"label":"Pennybacker","type":"ConferenceRoom","hint":"", "coords":[0,0]},
+                                    {"label":"Tarrytown","type":"ConferenceRoom","hint":"", "coords":[0,0]},
+                                    {"label":"Wilkerson","type":"ConferenceRoom","hint":"", "coords":[0,0]},
+                                    {"label":"Travis Heights","type":"ConferenceRoom","hint":"", "coords":[0,0]},
+                                    {"label":"Vegas","type":"ConferenceRoom","hint":" ", "coords":[0,0]},
+                                    {"label":"Discovery Lab","type":"Lab","hint":"A place for breathing life in your innovations", "coords":[0,0]},
+                                    ]
+                           },
+                           {"label":"Bldg. H Second Floor","type":"pdf","dataURL":"H2.pdf","anchor coords":[[0,0]],
+                           "items":[
+                                    {"label":"The Command Ctr","type":"ConferenceRoom","hint":"", "coords":[0,0]},
+                                    {"label":"The Situation Room","type":"ConferenceRoom","hint":" ", "coords":[0,0]},
+                                    {"label":"Mission Control","type":"ConferenceRoom","hint":"", "coords":[0,0]},
+                                    {"label":"Pecan Grove 1&2","type":"ConferenceRoom","hint":"", "coords":[0,0]},
+                                    {"label":"Cerro Alto","type":"ConferenceRoom","hint":"", "coords":[0,0]},
+                                    {"label":"San Marcos","type":"ConferenceRoom","hint":"", "coords":[0,0]},
+                                    {"label":"Mile 26","type":"ConferenceRoom","hint":" ", "coords":[0,0]},
+                                    {"label":"Everest","type":"Lab","hint":" ", "coords":[0,0]},
+                                     {"label":"Cartwright","type":"Lab","hint":" ", "coords":[0,0]},
+                                     {"label":"Moonlight Tower","type":"Lab","hint":" ", "coords":[0,0]},
+                                    {"label":"Breakers","type":"Lab","hint":" ", "coords":[0,0]},
+                                    {"label":"Ascension","type":"Lab","hint":" ", "coords":[0,0]},
+                                    ]
+                           },
+                           {"label":"Bldg. H Third Floor","type":"pdf","dataURL":"H3.pdf","anchor coords":[[0,0]],
+                           "items":[
+                                    {"label":"Carlsbad 1","type":"ConferenceRoom","hint":"", "coords":[0,0]},
+                                    {"label":"Carlsbad 2","type":"ConferenceRoom","hint":" ", "coords":[0,0]},
+                                    {"label":"Lake Buchanan","type":"ConferenceRoom","hint":"", "coords":[0,0]},
+                                    {"label":"Sonora","type":"ConferenceRoom","hint":"", "coords":[0,0]},
+                                    {"label":"Twin Lakes","type":"ConferenceRoom","hint":"", "coords":[0,0]},
+                                    {"label":"Tripoli Shores","type":"ConferenceRoom","hint":"", "coords":[0,0]},
+                                    {"label":"Blue Devils","type":"ConferenceRoom","hint":" ", "coords":[0,0]},
+                                    {"label":"Everest","type":"Lab","hint":" ", "coords":[0,0]},
+                                    {"label":"Penny Lane","type":"Lab","hint":" ", "coords":[0,0]},
+                                    {"label":"Fenway Park","type":"Lab","hint":" ", "coords":[0,0]},
+                                    {"label":"Strawberry Fields","type":"Lab","hint":" ", "coords":[0,0]},
+                                    {"label":"Opportunity","type":"Lab","hint":" ", "coords":[0,0]},
+                                    {"label":"Leadership","type":"Lab","hint":" ", "coords":[0,0]},
+                                    {"label":"Vandelay","type":"Lab","hint":" ", "coords":[0,0]},
+                                    ]
+                           },
+                           {"label":"Bldg. E Third Floor","type":"pdf","dataURL":"E3.pdf","anchor coords":[[0,0]],
+                           "items":[
+                                    {"label":"Apollo","type":"ConferenceRoom","hint":"", "coords":[0,0]},
+                                    {"label":"Berry Creek","type":"ConferenceRoom","hint":" ", "coords":[0,0]},
+                                    {"label":"Longhorn","type":"ConferenceRoom","hint":"", "coords":[0,0]},
+                                    {"label":"APTD Conf Rm","type":"ConferenceRoom","hint":"", "coords":[0,0]},
+                                    {"label":"Forbes Field","type":"ConferenceRoom","hint":"", "coords":[0,0]},
+                                    {"label":"Capitol","type":"ConferenceRoom","hint":"", "coords":[0,0]},
+                                    {"label":"Barton Creek 1","type":"ConferenceRoom","hint":" ", "coords":[0,0]},
+                                    {"label":"Barton Creek 2","type":"ConferenceRoom","hint":" ", "coords":[0,0]},
+                                    {"label":"Barton Creek 3","type":"ConferenceRoom","hint":" ", "coords":[0,0]},
+                                    {"label":"Auditorium","type":"ConferenceRoom","hint":" ", "coords":[0,0]},
+                                    {"label":"Jester","type":"ConferenceRoom","hint":" ", "coords":[0,0]},
+                                    ]
+                           },
+                           {"label":"Bldg. J First Floor","type":"pdf","dataURL":"J1.pdf","anchor coords":[[0,0]],
+                           "items":[
+                                    {"label":"Oak Hill Cafe","type":"Cafeteria","hint":"Full service cafeteria with general recreation area", "coords":[0,0]},
+                                    ]
+                           },
+                           {"label":"Bldg. J Second Floor","type":"pdf","dataURL":"J2.pdf","anchor coords":[[0,0]],
+                           "items":[
+                                    {"label":"Flamingo","type":"","hint":"", "coords":[0,0]},
+                                    {"label":"Tropicana","type":"","hint":"", "coords":[0,0]},
+                                    {"label":"Mirage","type":"","hint":"", "coords":[0,0]},
+                                    {"label":"Hill Country","type":"","hint":"", "coords":[0,0]},
+                                    {"label":"Pelican","type":"","hint":"", "coords":[0,0]},
+                                    ]
+                           },
+                           {"label":"Bldg. J Third Floor","type":"pdf","dataURL":"J3.pdf","anchor coords":[[0,0]],
+                           "items":[
+                                    {"label":"North Padre","type":"","hint":"", "coords":[0,0]},
+                                    {"label":"South Padre","type":"","hint":"", "coords":[0,0]},
+                                    {"label":"Spicewood","type":"","hint":"", "coords":[0,0]},
+                                    {"label":"Oasis","type":"","hint":"", "coords":[0,0]},
+                                    {"label":"Marble Falls","type":"","hint":"", "coords":[0,0]},
+                                    ]
+                           }
+                           ,
+                           {"label":"Bldg. L Third Floor","type":"pdf","dataURL":"L3.pdf","anchor coords":[[0,0]],
+                           "items":[
+                                    {"label":"Silver Creek 1","type":"","hint":"", "coords":[0,0]},
+                                    {"label":"Silver Creek 2","type":"","hint":"", "coords":[0,0]},
+                                    {"label":"Silver Creek 3","type":"","hint":"", "coords":[0,0]},
+                                    
+                                    ]
+                           }
+                           ]
+              },
+              {
+              "locationCode":"TX11",
+              "label":"ATMC",
+              "dataURL":"ATMC.pdf",
+              "buildings":[
+                           {"label":"Bldg. W First Floor","type":"pdf","dataURL":"ATMC-W1.pdf","anchor coords":[[0,0]],
+                           "items":[
+                                    {"label":"Aristotle","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Euclid","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Thales","type":"ConferenceRoom","hint": "", "coords":[0,0]}
+                                    ]
+                           },
+                           {"label":"Bldg. W Second Floor","type":"pdf","dataURL":"ATMC-W2.pdf","anchor coords":[[0,0]],
+                           "items":[
+                                    {"label":"CIM","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Crockett","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Device","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Diffusion/Thin Films","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Manufacturing","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"McMullen","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Photo/Etch","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Pioneer","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Sam Houston","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Support","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Staff(Technology)","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Tiger's Den","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    ]
+                           },
+                           {"label":"Bldg. A Third Floor","type":"pdf","dataURL":"ATMC-A3.pdf","anchor coords":[[0,0]],
+                           "items":[
+                                    {"label":"Slaughter Creek","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    ]
+                           },
+                           {"label":"Bldg. E Second Floor","type":"pdf","dataURL":"ATMC-E2.pdf","anchor coords":[[0,0]],
+                           "items":[
+                                    {"label":"Expedition","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Innovation","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Journey","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Voyage","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    ]
+                           },
+                           {"label":"Bldg. E Third Floor","type":"pdf","dataURL":"ATMC-E3.pdf","anchor coords":[[0,0]],
+                           "items":[
+                                    {"label":"Lone Star I","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Lone Star II","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Lone Star III","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    ]
+                           }
+                           ]
+              },
+              {
+              "locationCode":"AZ50",
+              "label":"CHD",
+              "dataURL":"CHD.pdf",
+              "buildings":[
+                           {"label":"Bldg. M First Floor","type":"pdf","dataURL":"CHD-M1.pdf","anchor coords":[[0,0]],
+                           "items":[
+                                    {"label":"Salt Fields","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Verde","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    ]
+                           },
+                           {"label":"Bldg. M Second Floor","type":"pdf","dataURL":"CHD-M2.pdf","anchor coords":[[0,0]],
+                           "items":[
+                                    {"label":"Bisbee","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Show Low","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Casa Grande","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Kingman","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Payson","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Canyon De Chelly","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Pinetop","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Flagstaff","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Prescott","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Sedona","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Lake Havasu","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Maricopa","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Winslow","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Globe","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Picacho","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Higley","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Ajo","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    ]
+                           },
+                           {"label":"Bldg. C First Floor","type":"pdf","dataURL":"CHD-C1.pdf","anchor coords":[[0,0]],
+                           "items":[
+                                    {"label":"Santa Cruz","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Chiricahua","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Aravaipa","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Yuma","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Gila","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Graham","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Lapaz","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Lobby Rm 1","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Lobby Rm 2","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    ]
+                           },
+                           {"label":"Bldg. C Second Floor","type":"pdf","dataURL":"CHD-C2.pdf","anchor coords":[[0,0]],
+                           "items":[
+                                    {"label":"Coconino","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Yavapai","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Greenlee","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Navajo","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Six Sigma","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    ]
+                           },
+                           {"label":"Bldgs. A & B First Floor","type":"pdf","dataURL":"CHD-AB1.pdf","anchor coords":[[0,0]],
+                           "items":[
+                                    {"label":"East Kilbride","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Toulouse","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Gilbert I","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Gilbert II","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Phoenix","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Dante","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    ]
+                           }
+                           ]
+              },
+              {
+              "locationCode":"AZ34",
+              "label":"Tempe",
+              "dataURL":"Tempe.pdf",
+              "hint":"AISG, NMSG, TSO, Quality",
+              "buildings":[
+                           {"label":"Bldg. 90 First Floor","type":"pdf","dataURL":"Tempe-90-1.pdf","anchor coords":[[0,0]],
+                           "items":[
+                                    {"label":"Activity Center","type":"Activity Center","hint": "", "coords":[0,0]},
+                                    {"label":"Vending Area","type":"Vending Room","hint": "", "coords":[0,0]},
+                                    {"label":"Pauling","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Autobahn","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Analog","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Sunrise","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Highway 1","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Golden View","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Nebula","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Déjà Vu","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    ]
+                           },
+                           {"label":"Bldg. 90 Second Floor","type":"pdf","dataURL":"Tempe-90-2.pdf","anchor coords":[[0,0]],
+                           "items":[
+                                    {"label":"La Jolla","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Autumn","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Eclipse","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Constellation","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Starburst","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Route 66","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Galaxy","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Milky Way","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Horizon","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    ]
+                           },
+                           {"label":"Bldg. 94 First Floor","type":"pdf","dataURL":"Tempe-94-1.pdf","anchor coords":[[0,0]],
+                           "items":[
+                                    {"label":"Dan Noble","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Elliot Garden Café","type":"Cafeteria","hint": "", "coords":[0,0]},
+                                    {"label":"Hawk","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Sedona","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Broadband","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Swan","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Toucan","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Falcon","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Diamond","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Pearl","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Spectrum","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Emerald","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Sector Learning","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Sector Learning Computer Lab","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Ruby","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Executive","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Amethyst","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Group","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Jade","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Phoenix","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"RF Executive","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Mirage","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"Topaz","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    {"label":"94 Lobby","type":"ConferenceRoom","hint": "", "coords":[0,0]},
+                                    ]
+                           }
+                           ]
+              }
+              ]
+}

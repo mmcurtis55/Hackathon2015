@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  Intapp
+
+  Created by ra3571 on 2/26/15.
+  Copyright (c) 2015 Freescale. All rights reserved.
+ 
+ "KEY" = "CONTENT";
+*/
+"Sign In" = "Registrarse";
+
+"Sign Out" = "Desconectar";
+
+"Cancel" = "Cancelar";
+
+"OK" = "OK";

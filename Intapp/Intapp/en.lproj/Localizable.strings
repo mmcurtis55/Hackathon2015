@@ -1,0 +1,37 @@
+/* 
+  Localizable.strings
+  Intapp
+
+  Created by ra3571 on 2/26/15.
+  Copyright (c) 2015 Freescale. All rights reserved.
+ 
+ "KEY" = "CONTENT";
+*/
+"Sign In" = "Sign In";
+
+"Sign Out" = "Sign Out";
+
+"Cancel" = "Cancel";
+
+"OK" = "OK";
+
+"Unable to find %@"="Unable to find %@";
+
+/* Below are all the possble menu items strings */
+"Locations" = "Locations";
+
+"Site Maps" = "Site Maps";
+
+"Events" = "Events";
+
+"Community" = "Community";
+
+"Car Pool" = "Car Pool";
+
+"Café" = "Café";
+
+"QR Code" = "QR Code";
+
+"FAQ" = "FAQ";
+
+"Support" = "Support";

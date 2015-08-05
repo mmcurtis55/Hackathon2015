@@ -1,0 +1,46 @@
+{
+    "items": [
+              {
+              "title": "Chandler Fab",
+              "latitude": 33.3265033,
+              "longitude": -111.8626689,
+              "iconURL": "fsl-map-icon.png",
+              "subtitle": "1300 N Alma School Rd Chandler, AZ 85224"
+              },
+              {
+              "title": "Tempe",
+              "latitude": 33.3511049,
+              "longitude": -111.898631,
+              "iconURL": "fsl-map-icon.png",
+              "subtitle": "Freescale Semiconductor Inc 2100 East Elliot Road"
+              },
+              {
+              "title": "Oak Hill",
+              "latitude": 30.239297,
+              "longitude": -97.867112,
+              "iconURL": "fsl-map-icon.png",
+              "subtitle": "6501 West William Cannon"
+              },
+              {
+              "title": "ATMC",
+              "latitude": 30.2736835,
+              "longitude": -97.6641424,
+              "iconURL": "fsl-map-icon.png",
+              "subtitle": "3501 Ed Bluestein Blvd."
+              },
+              {
+              "title": "San Jose",
+              "latitude": 37.3901035,
+              "longitude": -121.9248617,
+              "iconURL": "fsl-map-icon.png",
+              "subtitle": "2680 Zanker Rd #200, San Jose, CA 95134"
+              },
+              {
+              "title": "Chicago Sales",
+              "latitude": 42.0644687,
+              "longitude": -88.1488836,
+              "iconURL": "fsl-map-icon.png",
+              "subtitle": "2800 W Higgins Rd #600 Hoffman Estates, Il 60169"
+              }
+              ]
+}

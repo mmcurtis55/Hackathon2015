@@ -1,0 +1,197 @@
+//
+//  SideBar.swift
+//
+import UIKit
+
+/*
+Optional protocol requirements can only be specified if your protocol is marked with the @objc attribute. Even if you are not interoperating with Objective-C, you need to mark your protocols with the @objc attribute if you want to specify optional requirements.
+
+*/
+
+@objc protocol SideBarDelegate{
+   // func sideBarDidSelectMenuButtonAtIndex(index:Int)
+    func sideBarDidSelectMenuButton(tableView: UITableView, indexPath: NSIndexPath)
+    
+    optional func sideBarWillOpen()
+    optional func sideBarWillClose()
+}
+
+class SideBar: NSObject, SideBarTableViewControllerDelegate {
+   
+    let barWidth:CGFloat = 250.0
+    let sideBarTableViewTopInset:CGFloat = 64.0
+    let sideBarContainerView:UIView = UIView()
+    let sideBarTableViewController:SideBarTableViewController = SideBarTableViewController()
+    var animator:UIDynamicAnimator!
+    var originView:UIView!
+    var delegate:SideBarDelegate?
+    var isSideBarOpen:Bool = false
+    
+    override
+    init() {
+        super.init()
+    }
+    
+    init(sourceView:UIView, menuItems:Array<MenuItem>){
+        super.init()
+        originView = sourceView
+        sideBarTableViewController.tableData = menuItems.map({$0.label})
+        sideBarTableViewController.picData = menuItems.map({$0.iconUrl})
+        sideBarTableViewController.types = menuItems.map({$0.type})
+        
+        //this adds the about page to the side bar
+        sideBarTableViewController.tableData.append("About")
+        sideBarTableViewController.picData.append("apply_white_96.png")
+        sideBarTableViewController.types.append("About")
+
+        setupSideBar()
+        
+        animator = UIDynamicAnimator(referenceView: originView)
+        
+        let showGestureRecognizer:UISwipeGestureRecognizer = UISwipeGestureRecognizer(target: self, action: "handleSwipe:")
+        showGestureRecognizer.direction = UISwipeGestureRecognizerDirection.Right
+        originView.addGestureRecognizer(showGestureRecognizer)
+        
+        let hideGestureRecognizer:UISwipeGestureRecognizer = UISwipeGestureRecognizer(target: self, action: "handleSwipe:")
+        hideGestureRecognizer.direction = UISwipeGestureRecognizerDirection.Left
+        originView.addGestureRecognizer(hideGestureRecognizer)
+        
+//        add this back in when if you want to close the sidebar with a tap
+//        let tapGestrue:UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "handleSwipe:")
+//        originView.addGestureRecognizer(tapGestrue)
+
+        
+        
+//        tapGesture = UITapGestureRecognizer(target: self, action: Selector("hideSideBar"))
+//        originView.addGestureRecognizer(tapGesture)
+        
+        // TODO: MAYBE PLACE THAT WITHIN ORIGIN
+    }
+
+    
+    
+    //this init was not used because we decided to pass a more detailed menuitem array rather than just an array of strings
+//    init(sourceView:UIView, menuItems:Array<String>){  
+//        super.init()
+//        originView = sourceView
+//        sideBarTableViewController.tableData = menuItems
+//        sideBarTableViewController.picData = menuItems
+//        setupSideBar()
+//        
+//        animator = UIDynamicAnimator(referenceView: originView)
+//        
+//        let showGestureRecognizer:UISwipeGestureRecognizer = UISwipeGestureRecognizer(target: self, action: "handleSwipe:")
+//        showGestureRecognizer.direction = UISwipeGestureRecognizerDirection.Right
+//        originView.addGestureRecognizer(showGestureRecognizer)
+//        
+//        let hideGestureRecognizer:UISwipeGestureRecognizer = UISwipeGestureRecognizer(target: self, action: "handleSwipe:")
+//        hideGestureRecognizer.direction = UISwipeGestureRecognizerDirection.Left
+//        
+//        // TODO: MAYBE PLACE THAT WITHIN ORIGIN
+//        originView.addGestureRecognizer(hideGestureRecognizer)
+//        
+//    }
+    
+    func setupSideBar(){
+        sideBarContainerView.frame = CGRectMake(-barWidth-1, originView.frame.origin.y, barWidth, originView.frame.size.height)
+        sideBarContainerView.backgroundColor = UIColor.clearColor()
+        sideBarContainerView.clipsToBounds = false
+
+        originView.addSubview(sideBarContainerView)
+        
+        if UtilityService.isiOS8 {
+            let blurView:UIVisualEffectView = UIVisualEffectView(effect: UIBlurEffect(style: UIBlurEffectStyle.Light))
+            blurView.frame = sideBarContainerView.bounds
+            sideBarContainerView.addSubview(blurView)
+        } else  {
+            sideBarContainerView.backgroundColor = UIColor(rgba: "#D4F2F7")
+        }
+        
+        sideBarTableViewController.delegate = self
+        sideBarTableViewController.tableView.frame = sideBarContainerView.bounds
+        sideBarTableViewController.tableView.clipsToBounds = false
+        sideBarTableViewController.tableView.separatorStyle = UITableViewCellSeparatorStyle.None
+        sideBarTableViewController.tableView.backgroundColor = UIColor.lightGrayColor().colorWithAlphaComponent(0.2)
+        sideBarTableViewController.tableView.scrollsToTop = false
+        sideBarTableViewController.tableView.contentInset = UIEdgeInsetsMake(sideBarTableViewTopInset, 0, 0, 0)
+        sideBarTableViewController.tableView.scrollEnabled = false
+
+
+        
+        sideBarTableViewController.tableView.reloadData()
+        sideBarContainerView.addSubview(sideBarTableViewController.tableView)
+        
+
+        
+    }
+    
+    func handleSwipe(recognizer:AnyObject){
+        sideBarTableViewController.tableView.reloadData()
+        if let rec  = recognizer as? UISwipeGestureRecognizer{
+        if recognizer.direction == UISwipeGestureRecognizerDirection.Right{
+            showSideBar(true)
+            delegate?.sideBarWillOpen?()
+            DLog("Right")
+        }else {
+            showSideBar(false)
+            delegate?.sideBarWillClose?()
+            DLog("Left ")
+        }
+        }
+        else if let rec = recognizer as?  UITapGestureRecognizer{
+            if isSideBarOpen{
+                showSideBar(false)
+                delegate?.sideBarWillClose?()
+                DLog("Tapped to close")
+            }
+        }
+    }
+    
+//    /*!
+//    * hide the side bar programmatically
+//    */
+//    func handleTap(tap:UITapGestureRecognizer) {
+//        DLog("reached tapped MC")
+//        if isSideBarOpen {
+//            
+//            showSideBar(false)
+//            delegate?.sideBarWillClose?()
+//        }
+//         tap.enabled = false
+//    }
+    
+    
+    func showSideBar(shouldOpen:Bool){
+        animator.removeAllBehaviors()
+        isSideBarOpen = shouldOpen
+        
+        let gravityX:CGFloat = (shouldOpen) ? 10.0 : -10.0
+        let magnitude:CGFloat = (shouldOpen) ? 20 : -20
+        var boundaryX:CGFloat = (shouldOpen) ? barWidth : -barWidth - 1.0
+        
+        let gravityBehavior:UIGravityBehavior = UIGravityBehavior(items: [sideBarContainerView])
+        gravityBehavior.gravityDirection = CGVectorMake(gravityX, 0)
+        animator.addBehavior(gravityBehavior)
+        
+        
+        let collisionBehavior:UICollisionBehavior = UICollisionBehavior(items: [sideBarContainerView])
+        collisionBehavior.addBoundaryWithIdentifier("menuBoundary", fromPoint: CGPointMake(boundaryX, 20.0),
+            toPoint: CGPointMake(boundaryX, originView.frame.size.height))
+        animator.addBehavior(collisionBehavior)
+
+        
+        let pushBehavior:UIPushBehavior = UIPushBehavior(items: [sideBarContainerView], mode: UIPushBehaviorMode.Instantaneous)
+        pushBehavior.magnitude = magnitude
+        animator.addBehavior(pushBehavior)
+        
+        let sideBarBehavior:UIDynamicItemBehavior = UIDynamicItemBehavior(items: [sideBarContainerView])
+        sideBarBehavior.elasticity = 0.1
+        animator.addBehavior(sideBarBehavior)
+    }
+    
+    func sideBarControllerDidSelectRow(indexPath: NSIndexPath) {
+        delegate?.sideBarDidSelectMenuButton(sideBarTableViewController.tableView, indexPath: indexPath)
+        showSideBar(false)
+    }
+    
+}

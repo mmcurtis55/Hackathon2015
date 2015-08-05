@@ -1,0 +1,138 @@
+//
+//  XmlParserManager.swift
+//  RSSwift
+//
+//
+// This is a custom parser
+//
+
+import Foundation
+
+class XmlParserManager: NSObject, NSXMLParserDelegate {
+    
+    var parser = NSXMLParser()
+    var feeds = NSMutableArray()
+    var elements = NSMutableDictionary()
+    var element = NSString()
+    var ftitle = NSMutableString()
+    var link = NSMutableString()
+    var fdescription = NSMutableString()
+    var fdate = NSMutableString()
+    var thumbnailLink = NSMutableString()
+    var attrs = NSDictionary()
+    
+    // initilise parser
+//    func initWithURL(url :NSURL) -> AnyObject {
+//        startParse(url)
+//        return self
+//    }
+    
+    func initWithData(data: NSData) -> AnyObject {
+        startParse(data)
+        return self
+    }
+    
+//    func initWithParser(parser:NSXMLParser) -> AnyObject {
+//        self.parser = parser
+//        feeds = []
+//        parser.delegate = self
+//        parser.shouldProcessNamespaces = false
+//        parser.shouldReportNamespacePrefixes = false
+//        parser.shouldResolveExternalEntities = false
+//        parser.parse()
+//
+//        return self
+//    }
+    
+    func startParse(data :NSData) {
+        feeds = []
+        elements = [:]
+        parser = NSXMLParser(data:data)
+        parser.delegate = self
+        parser.shouldProcessNamespaces = false
+        parser.shouldReportNamespacePrefixes = false
+        parser.shouldResolveExternalEntities = false
+        parser.parse()
+    }
+
+    
+//    func startParse(url :NSURL) {
+//        feeds = []
+//        parser = NSXMLParser(contentsOfURL: url)!
+//        parser.delegate = self
+//        parser.shouldProcessNamespaces = false
+//        parser.shouldReportNamespacePrefixes = false
+//        parser.shouldResolveExternalEntities = false
+//        parser.parse()
+//    }
+    
+    func allFeeds() -> NSMutableArray {
+        return feeds
+    }
+    
+    func parser(parser: NSXMLParser, didStartElement elementName: String, namespaceURI: String?, qualifiedName: String?, attributes attributeDict: [NSObject : AnyObject]) {
+        
+        element = elementName
+        
+        if (element as NSString).isEqualToString("item") {
+            //elements = NSMutableDictionary.alloc()
+            elements = [:]
+            //ftitle = NSMutableString.alloc()
+            ftitle = ""
+            //link = NSMutableString.alloc()
+            link = ""
+            //fdescription = NSMutableString.alloc()
+            fdescription = ""
+            //fdate = NSMutableString.alloc()
+            fdate = ""
+            //thumbnailLink = NSMutableString.alloc()
+            thumbnailLink = ""
+        } else if (element as NSString).isEqualToString("media:thumbnail") {
+            attrs = attributeDict
+        }
+    }
+    
+    func parser(parser: NSXMLParser, didEndElement elementName: String, namespaceURI: String?, qualifiedName qName: String?) {
+        
+        if (elementName as NSString).isEqualToString("item") {
+            if ftitle != "" {
+                elements.setObject(ftitle, forKey: "title")
+            }
+            
+            if link != "" {
+                elements.setObject(link, forKey: "link")
+            }
+            
+            if fdescription != "" {
+                elements.setObject(fdescription, forKey: "description")
+            }
+            
+            if fdate != "" {
+                elements.setObject(fdate, forKey: "pubDate")
+            }
+            
+            if thumbnailLink != "" {
+                elements.setObject(thumbnailLink, forKey: "thumbnail")
+            }
+
+            feeds.addObject(elements)
+        }
+        
+    }
+    
+    func parser(parser: NSXMLParser, foundCharacters string: String?) { 
+        if element.isEqualToString("title") {
+            ftitle.appendString(string!)
+        } else if element.isEqualToString("link") {
+            link.appendString(string!)
+        }else if element.isEqualToString("description") {
+            fdescription.appendString(string!)
+        }else if element.isEqualToString("pubDate") {
+            fdate.appendString(string!)
+        }else if element.isEqualToString("media:thumbnail") {
+            thumbnailLink.appendString(attrs["url"] as! String)
+        }
+    }
+
+    
+}

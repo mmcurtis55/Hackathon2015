@@ -1,0 +1,103 @@
+{"locations":
+    [{
+    "locationCode":"TX30",
+    "alias":"OHT",
+    "dataUrl":"OHT.pdf",
+    "buildings":[
+        {"label":"D1","type":"pdf","dataURL":"D1.pdf","anchor coords":[[0,0]],
+         "items":[
+            {"label":"San Saba","type":"ConferenceRoom","hint":"Right behind north lobby security desk", "coords":[0,0]},
+            {"label":"San Jacinto","type":"ConferenceRoom","hint":""},
+            {"label":"Senca","type":"ConferenceRoom","hint":""},
+            {"label":"San Gabriel","type":"ConferenceRoom","hint":""},
+            {"label":"Waterloo","type":"ConferenceRoom","hint":""},
+            {"label":"Trinity I","type":"ConferenceRoom","hint":"The corridor between D and W building"},
+            {"label":"Trinity II","type":"ConferenceRoom","hint":"The corridor between D and W building"},
+            {"label":"Trinity III","type":"ConferenceRoom","hint":"The corridor between D and W building"}
+            ]
+        },
+        {"label":"W1","type":"pdf","dataURL":"W1.pdf","anchor coords":[[0,0]],
+        "items":[
+            {"label":"Annapurna","type":"ConferenceRoom","hint":"First conf room on the left in Information Technology", "coords":[0,0]},
+            {"label":"K2","type":"ConferenceRoom","hint":"Second conf room on the left in Information Technology", "coords":[0,0]},
+            {"label":"Keystone","type":"ConferenceRoom","hint":"Third conf room on the left in Information Technology", "coords":[0,0]},
+            {"label":"Dripping Springs","type":"ConferenceRoom","hint":"Not in Information Technology Area", "coords":[0,0]}
+            ]
+        },
+        {"label":"D2","type":"pdf","dataURL":"D2.pdf","anchor coords":[[0,0]],
+         "items":[
+          {"label":"Pedernales","type":"ConferenceRoom","hint":"", "coords":[0,0]},
+          {"label":"Pecos","type":"ConferenceRoom","hint":" ", "coords":[0,0]},
+          {"label":"Sabine","type":"ConferenceRoom","hint":"East", "coords":[0,0]},
+          {"label":"Lavaca","type":"ConferenceRoom","hint":"South", "coords":[0,0]},
+          {"label":"Guadalupe","type":"ConferenceRoom","hint":"South", "coords":[0,0]},
+          {"label":"Nueces","type":"ConferenceRoom","hint":"SW Corner", "coords":[0,0]},
+          {"label":"Frio","type":"ConferenceRoom","hint":" ", "coords":[0,0]},
+          {"label":"Red River","type":"ConferenceRoom","hint":"Near main Stairwell", "coords":[0,0]}
+          ]
+        },
+        {"label":"F3","type":"pdf","dataURL":"F3.pdf","anchor coords":[[0,0]],
+         "items":[
+          {"label":"Cedar","type":"ConferenceRoom","hint":"", "coords":[0,0]},
+          {"label":"Cottonwood","type":"ConferenceRoom","hint":" ", "coords":[0,0]},
+          {"label":"Magnolia","type":"ConferenceRoom","hint":"", "coords":[0,0]},
+          {"label":"Bonsai","type":"ConferenceRoom","hint":"", "coords":[0,0]},
+          {"label":"Marula","type":"ConferenceRoom","hint":"", "coords":[0,0]},
+          {"label":"Three Rivers","type":"ConferenceRoom","hint":"", "coords":[0,0]},
+          {"label":"Bear Creek","type":"ConferenceRoom","hint":" ", "coords":[0,0]},
+          {"label":"Juniper","type":"ConferenceRoom","hint":" ", "coords":[0,0]},
+          {"label":"Hickory","type":"ConferenceRoom","hint":" ", "coords":[0,0]},
+          {"label":"Red Bud","type":"ConferenceRoom","hint":" ", "coords":[0,0]},
+          {"label":"Collaboration","type":"ConferenceRoom","hint":" ", "coords":[0,0]}
+          ]
+         },
+         {"label":"G2","type":"pdf","dataURL":"G2.pdf","anchor coords":[[0,0]],
+         "items":[
+          {"label":"Tejas","type":"ConferenceRoom","hint":"", "coords":[0,0]},
+          {"label":"Treaty Oak","type":"ConferenceRoom","hint":" ", "coords":[0,0]},
+          {"label":"Sunset","type":"ConferenceRoom","hint":"", "coords":[0,0]},
+          {"label":"WWW","type":"ConferenceRoom","hint":"", "coords":[0,0]},
+          {"label":"All Y’all","type":"ConferenceRoom","hint":"", "coords":[0,0]},
+          {"label":"Waxahachie","type":"ConferenceRoom","hint":"", "coords":[0,0]},
+          {"label":"Nacogdoches","type":"ConferenceRoom","hint":" ", "coords":[0,0]},
+          {"label":"High Yield","type":"ConferenceRoom","hint":" ", "coords":[0,0]},
+          {"label":"Corsicana","type":"ConferenceRoom","hint":" ", "coords":[0,0]},
+          {"label":"Backyard","type":"ConferenceRoom","hint":" ", "coords":[0,0]},
+         ]
+         },
+         {"label":"G3","type":"pdf","dataURL":"G3.pdf","anchor coords":[[0,0]],
+         "items":[
+          {"label":"St. Andrews","type":"ConferenceRoom","hint":"", "coords":[0,0]},
+          {"label":"Zilker","type":"ConferenceRoom","hint":" ", "coords":[0,0]},
+          {"label":"Pennybacker","type":"ConferenceRoom","hint":"", "coords":[0,0]},
+          {"label":"Tarrytown","type":"ConferenceRoom","hint":"", "coords":[0,0]},
+          {"label":"Wilkerson","type":"ConferenceRoom","hint":"", "coords":[0,0]},
+          {"label":"Travis Heights","type":"ConferenceRoom","hint":"", "coords":[0,0]},
+          {"label":"Vegas","type":"ConferenceRoom","hint":" ", "coords":[0,0]},
+         ]
+         },
+         {"label":"E3","type":"pdf","dataURL":"E3.pdf","anchor coords":[[0,0]],
+         "items":[
+          {"label":"Apollo","type":"ConferenceRoom","hint":"", "coords":[0,0]},
+          {"label":"Berry Creek","type":"ConferenceRoom","hint":" ", "coords":[0,0]},
+          {"label":"Longhorn","type":"ConferenceRoom","hint":"", "coords":[0,0]},
+          {"label":"APTD Conf Rm","type":"ConferenceRoom","hint":"", "coords":[0,0]},
+          {"label":"Forbes Field","type":"ConferenceRoom","hint":"", "coords":[0,0]},
+          {"label":"Capitol","type":"ConferenceRoom","hint":"", "coords":[0,0]},
+          {"label":"Barton Creek 1","type":"ConferenceRoom","hint":" ", "coords":[0,0]},
+          {"label":"Barton Creek 2","type":"ConferenceRoom","hint":" ", "coords":[0,0]},
+          {"label":"Barton Creek 3","type":"ConferenceRoom","hint":" ", "coords":[0,0]},
+          {"label":"Auditorium","type":"ConferenceRoom","hint":" ", "coords":[0,0]},
+          {"label":"Jester","type":"ConferenceRoom","hint":" ", "coords":[0,0]},
+          ]
+         },
+         {"label":"J1","type":"pdf","dataURL":"E3.pdf","anchor coords":[[0,0]],
+         "items":[
+          {"label":"Oak Hill Cafe","type":"Cafeteria","hint":"Full service cafeteria with pooltables and retro videogames.", "coords":[0,0]},
+         ]
+         }
+    ]
+}]
+}
+
+

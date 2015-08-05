@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14D136" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Building" representedClassName="InternApp.Building" syncable="YES">
+        <attribute name="location" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="items" optional="YES" toMany="YES" maxCount="1024" deletionRule="Cascade" ordered="YES" destinationEntity="BuildingEntity" inverseName="building" inverseEntity="BuildingEntity" syncable="YES"/>
+    </entity>
+    <entity name="BuildingEntity" representedClassName="InternApp.BuildingEntity" syncable="YES">
+        <attribute name="hint" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="building" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Building" inverseName="items" inverseEntity="Building" syncable="YES"/>
+    </entity>
+    <entity name="MenuItem" representedClassName="InternApp.MenuItem" syncable="YES">
+        <attribute name="color" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="created" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="iconUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="label" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="segueUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="size" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thumbnail" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="tint" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="SiteNavMap" representedClassName="InternApp.SiteNavMap" syncable="YES">
+        <attribute name="mapPDF" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timeAdded" optional="YES" attributeType="Date" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Building" positionX="-45" positionY="216" width="128" height="88"/>
+        <element name="BuildingEntity" positionX="160" positionY="27" width="128" height="88"/>
+        <element name="MenuItem" positionX="-63" positionY="-18" width="128" height="193"/>
+        <element name="SiteNavMap" positionX="169" positionY="165" width="128" height="73"/>
+    </elements>
+</model>

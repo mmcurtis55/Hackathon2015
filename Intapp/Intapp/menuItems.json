@@ -1,0 +1,81 @@
+{
+    "items": [
+              {
+              "label": "Locations",
+              "tint": "#666666",
+              "iconURL": "map-marker.png",
+              "type": "map",
+              "dataURL": "mapmarkers.json",
+              "size": "72,72",
+              "color": "#D4F2F7"
+              },
+              {
+              "label": "Site Maps",
+              "tint": "#666666",
+              "iconURL": "compass.png",
+              "type": "nav",
+              "dataURL": "",
+              "color": "#D4F2F7"
+              },
+              {
+              "label": "Events",
+              "tint": "#666666",
+              "iconURL": "calendar.png",
+              "type": "viewer",
+              "dataURL": "Events.pdf",
+              "size": "72,72",
+              "color": "#D4F2F7"
+              },
+              {
+              "label": "Community",
+              "tint": "#666666",
+              "iconURL": "facebook-square.png",
+              "type": "web",
+              "dataURL": "https://www.facebook.com/FreescaleUniversityPrograms",
+              "size": "72,72",
+              "color": "#D4F2F7"
+              },
+              {
+              "label": "Car Pool",
+              "tint": "#666666",
+              "iconURL": "automobile.png",
+              "type": "web",
+              "dataURL": "http://freelift.freescale.net",
+              "color": "#D4F2F7"
+              },
+              {
+              "label": "Café",
+              "tint": "#666666",
+              "iconURL": "cutlery.png",
+              "type": "web",
+              "dataURL": "http://www.aramarkcafe.com/layouts/canary_2010/index.aspx?comp=freescale",
+              "color": "#D4F2F7"
+              },
+              {
+              "label": "QR Code",
+              "tint": "#666666",
+              "iconURL": "qrcode.png",
+              "type": "qr",
+              "dataURL": "",
+              "color": "#D4F2F7"
+              },
+              {
+              "label": "FAQ",
+              "tint": "#666666",
+              "iconURL": "question-circle.png",
+              "type": "web",
+              "dataURL": "http://www.freescale.com/webapp/sps/site/overview.jsp?code=UNIVPROGRAM_FAQ_CAT",
+              "size": "72,72",
+              "color": "#D4F2F7"
+              },
+              {
+              "label": "Support",
+              "tint": "#666666",
+              "iconURL": "support.png",
+              "type": "viewer",
+              "dataURL": "Support.pdf",
+              "color": "#D4F2F7"
+              }
+              ],
+    "snapshot": "2015-02-02T18:25:43.511Z"
+}

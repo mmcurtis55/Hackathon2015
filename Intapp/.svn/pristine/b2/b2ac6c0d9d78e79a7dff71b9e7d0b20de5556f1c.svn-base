@@ -1,0 +1,51 @@
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "5Oq-CA-mLc"; */
+"5Oq-CA-mLc.text" = "Subtitle";
+
+/* Class = "UINavigationItem"; title = "Site Search"; ObjectID = "61Q-Fn-gQI"; */
+"61Q-Fn-gQI.title" = "Site Search";
+
+/* Class = "UIViewController"; title = "Site Navigation"; ObjectID = "GW6-J0-qXx"; */
+"GW6-J0-qXx.title" = "Site Navigation";
+
+/* Class = "UINavigationItem"; title = "Intern App"; ObjectID = "GlR-2E-d2Z"; */
+"GlR-2E-d2Z.title" = "El Aprendiz App";
+
+/* Class = "UINavigationController"; title = "SiteNavNavigationController"; ObjectID = "HGf-WK-VsZ"; */
+"HGf-WK-VsZ.title" = "SiteNavNavigationController";
+
+/* Class = "UIViewController"; title = "Map"; ObjectID = "OjJ-53-DW9"; */
+"OjJ-53-DW9.title" = "Mapa";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "Xin-vO-yk9"; */
+"Xin-vO-yk9.text" = "Titlo";
+
+/* Class = "UIViewController"; title = "QR Code"; ObjectID = "ZeN-fR-DyK"; */
+"ZeN-fR-DyK.title" = "QR Code";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "a5I-G7-c1q"; */
+"a5I-G7-c1q.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "About"; ObjectID = "iyP-JI-msD"; */
+"iyP-JI-msD.title" = "Sobre";
+
+/* Class = "UICollectionViewController"; title = "Freescale"; ObjectID = "jfd-Bk-9Sv"; */
+"jfd-Bk-9Sv.title" = "Freescale";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "lcl-QD-Bbh"; */
+"lcl-QD-Bbh.text" = "Titlo";
+
+/* Class = "UILabel"; text = " "; ObjectID = "qBv-gg-BO5"; */
+"qBv-gg-BO5.text" = " ";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "rXl-mO-QkC"; */
+"rXl-mO-QkC.text" = "Subtitle";
+
+/* Class = "UITableViewController"; title = "SiteNavSearchTableViewController"; ObjectID = "sHp-pK-plP"; */
+"sHp-pK-plP.title" = "SiteNavSearchTableViewController";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "twX-1e-nnl"; */
+"twX-1e-nnl.text" = "Label";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "vxS-LE-MIB"; */
+"vxS-LE-MIB.text" = "Titlo";

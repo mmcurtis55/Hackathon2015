@@ -1,0 +1,15 @@
+{"items":
+    [
+    {"label":"Locations", "iconURL":"map-marker.png","type":"map","dataURL":"sites.json"},
+    {"label":"FAQ", "iconURL":"info.png","type":"web","dataURL":"http://www.freescale.com/webapp/sps/site/overview.jsp?code=UNIVPROGRAM_FAQ_CAT"},
+    {"label":"Events", "iconURL":"calendar.png","type":"web","dataURL":"http://www.freescale.com/webapp/sps/site/homepage.jsp?code=EVENTS_HOME"},
+    {"label":"Messages", "iconURL":"bullhorn.png","type":"table","dataURL":"http://gallery.usgs.gov/rss/photo.rss"},
+    {"label":"Site Maps", "iconURL":"compass.png","type":"nav","dataURL":""},
+    {"label":"Support", "iconURL":"medkit.png","type":"grid","dataURL":"myHelpMenuItems.json"},
+    {"label":"Hangout", "iconURL":"users.png","type":"web","dataURL":"http://chat-jedthornock.rhcloud.com/"},
+    {"label":"Car Pool", "iconURL":"automobile.png","type":"web","dataURL":"http://freelift.freescale.net"},
+    {"label":"QR", "iconURL":"qrcode.png","type":"qr","dataURL":""},
+    {"label":"Cafe", "iconURL":"cutlery.png","type":"web","dataURL":"http://www.aramarkcafe.com/layouts/canary_2010/index.aspx?comp=freescale"}
+    ],
+    "snapshot":"2015-02-02T18:25:43.511Z"
+}
